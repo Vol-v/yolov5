@@ -1,0 +1,7 @@
+path: ../../my_dogs_yolo  # dataset root dir
+train: train/images  # train images (relative to 'path') 
+val: val/images  # val images (relative to 'path')
+
+# Classes
+nc: 2  # number of classes
+names: ["Alpha","Beta"]  # class names
